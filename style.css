@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Minecraft-Regular';
+    src:url('/Fonts/Minecraft-Regular.ttf.woff') format('woff'),
+        url('/Fonts/Minecraft-Regular.ttf.svg') format('svg'),
+        url('/Fonts/Minecraft-Regular.ttf.eot'),
+        url('Minecraft-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    font-family:'Minecraft-Regular';
+}
+body{
+    background-image: url("/Images/minecraft_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo img{
+
+    height: auto;
+    width: 30vw;
+
+}
+.play{
+    height: 90px;
+    width: 400px;
+    border-radius: 0;
+    background-color: #C3BEC2;
+    font-size: xx-large;
+    color: rgb(84, 84, 84);
+    border-width: 3px;
+    border-color: black;
+}
+.play:active{
+    box-shadow: inset 1px 1px 5px black ;
+}
+.q1-body{
+    background-image: url('/Images/minecraft-mobs-all.webp');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.q2-body{
+    background-image: url('endermen_img.jpeg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.q3-body{
+    background-image: url('endermen_img.jpeg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.q1-answers,.q2-answers{
+    height: 60px;
+    width: 250px;
+    border-radius: 0;
+    background-color: #C3BEC2;
+    font-size: x-large;
+    color: rgb(84, 84, 84);
+    border-width: 3px;
+    border-color: black;
+    padding: 10px;
+    margin: 3px;
+}
+.q1-answers:active,.q2-answers:active,.q3-answers:active{
+    box-shadow: inset 1px 1px 5px black ;
+}
+.q1-question,.q2-question,.q3-question{
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.theend img{
+    height: 100vh;
+    width: 100vw;
+}
