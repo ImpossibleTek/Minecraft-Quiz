@@ -12,7 +12,7 @@
     font-family:'Minecraft-Regular';
 }
 body{
-    background-image: url("/Images/minecraft_background.jpg");
+    background-image: url("Images/minecraft_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -43,7 +43,7 @@ body{
     box-shadow: inset 1px 1px 5px black ;
 }
 .q1-body{
-    background-image: url('/Images/minecraft-mobs-all.webp');
+    background-image: url('Images/minecraft-mobs-all.webp');
     display: flex;
     flex-direction: column;
     justify-content: center;
